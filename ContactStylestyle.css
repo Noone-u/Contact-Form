@@ -142,3 +142,37 @@ h2::after{
     }
     
 }
+
+@media screen and (max-width: 600px){
+    .container{
+        padding: 10px 15px;
+    }
+    
+    h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .right{
+        padding: 20px 15px;
+    }
+    
+    .field{
+        padding: 0.7rem 0.8rem;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    
+    .field::placeholder{
+        font-size: 0.95rem;
+    }
+    
+    .btn{
+        padding: 0.7rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .contact-box{
+        box-shadow: 0 0 15px 3px #ff61241f;
+    }
+}
